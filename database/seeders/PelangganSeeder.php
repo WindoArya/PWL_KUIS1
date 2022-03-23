@@ -17,63 +17,63 @@ class PelangganSeeder extends Seeder
         DB::table('pelanggan')->insert([
             //1
             [
-                'namaPelanggan' => 'Pelanggan 1',
-                'alamatPelanggan' => 'Malang',
-                'noHPPelanggan' => '081123123123121'
+                'nama_pelanggan' => 'Pelanggan 1',
+                'alamat_pelanggan' => 'Malang',
+                'no_hp_pelanggan' => '081123123123121'
             ],
             //2
             [
-                'namaPelanggan' => 'Pelanggan 2',
-                'alamatPelanggan' => 'Malang',
-                'noHPPelanggan' => '081123123123122'
+                'nama_pelanggan' => 'Pelanggan 2',
+                'alamat_pelanggan' => 'Malang',
+                'no_hp_pelanggan' => '081123123123122'
             ],
             //3
             [
-                'namaPelanggan' => 'Pelanggan 3',
-                'alamatPelanggan' => 'Malang',
-                'noHPPelanggan' => '081123123123123'
+                'nama_pelanggan' => 'Pelanggan 3',
+                'alamat_pelanggan' => 'Malang',
+                'no_hp_pelanggan' => '081123123123123'
             ],
             //4
             [
-                'namaPelanggan' => 'Pelanggan 4',
-                'alamatPelanggan' => 'Malang',
-                'noHPPelanggan' => '081123123123124'
+                'nama_pelanggan' => 'Pelanggan 4',
+                'alamat_pelanggan' => 'Malang',
+                'no_hp_elanggan' => '081123123123124'
             ],
             //5
             [
-                'namaPelanggan' => 'Pelanggan 5',
-                'alamatPelanggan' => 'Surabaya',
-                'noHPPelanggan' => '081123123123125'
+                'nama_pelanggan' => 'Pelanggan 5',
+                'alamat_pelanggan' => 'Surabaya',
+                'no_hp_pelanggan' => '081123123123125'
             ],
             //6
             [
-                'namaPelanggan' => 'Pelanggan 6',
-                'alamatPelanggan' => 'Surabaya',
-                'noHPPelanggan' => '081123123123126'
+                'nama_pelanggan' => 'Pelanggan 6',
+                'alamat_pelanggan' => 'Surabaya',
+                'no_hp_pelanggan' => '081123123123126'
             ],
             //7
             [
-                'namaPelanggan' => 'Pelanggan 7',
-                'alamatPelanggan' => 'Surabaya',
-                'noHPPelanggan' => '081123123123127'
+                'nama_pelanggan' => 'Pelanggan 7',
+                'alamat_pelanggan' => 'Surabaya',
+                'no_hp_pelanggan' => '081123123123127'
             ],
             //8
             [
-                'namaPelanggan' => 'Pelanggan 8',
-                'alamatPelanggan' => 'Sidoarjo',
-                'noHPPelanggan' => '081123123123128'
+                'nama_pelanggan' => 'Pelanggan 8',
+                'alamat_pelanggan' => 'Sidoarjo',
+                'no_hp_pelanggan' => '081123123123128'
             ],
             //9
             [
-                'namaPelanggan' => 'Pelanggan 9',
-                'alamatPelanggan' => 'Madiun',
-                'noHPPelanggan' => '081123123123129'
+                'nama_pelanggan' => 'Pelanggan 9',
+                'alamat_pelanggan' => 'Madiun',
+                'no_hp_pelanggan' => '081123123123129'
             ],
             //10
             [
-                'namaPelanggan' => 'Pelanggan 10',
-                'alamatPelanggan' => 'Lamongan',
-                'noHPPelanggan' => '081123123123120'
+                'nama_pelanggan' => 'Pelanggan 10',
+                'alamat_pelanggan' => 'Lamongan',
+                'no_hp_pelanggan' => '081123123123120'
             ]
         ]);
     }

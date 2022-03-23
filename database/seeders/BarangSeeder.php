@@ -17,71 +17,71 @@ class BarangSeeder extends Seeder
         DB::table('barang')->insert([
             //1
             [
-                'namaBarang' => 'Barang 1',
-                'hargaBarang' => 10000,
+                'nama_barang' => 'Barang 1',
+                'harga_barang' => 10000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ],
             //2
             [
-                'namaBarang' => 'Barang 2',
-                'hargaBarang' => 20000,
+                'nama_barang' => 'Barang 2',
+                'harga_barang' => 20000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ],
             //3
             [
-                'namaBarang' => 'Barang 3',
-                'hargaBarang' => 30000,
+                'nama_barang' => 'Barang 3',
+                'harga_barang' => 30000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ],
             //4
             [
-                'namaBarang' => 'Barang 4',
-                'hargaBarang' => 40000,
+                'nama_barang' => 'Barang 4',
+                'harga_barang' => 40000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ],
             //5
             [
-                'namaBarang' => 'Barang 5',
-                'hargaBarang' => 50000,
+                'nama_barang' => 'Barang 5',
+                'harga_barang' => 50000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ],
             //6
             [
-                'namaBarang' => 'Barang 6',
-                'hargaBarang' => 5000,
+                'nama_barang' => 'Barang 6',
+                'harga_barang' => 5000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ],
             //7
             [
-                'namaBarang' => 'Barang 7',
-                'hargaBarang' => 6000,
+                'nama_barang' => 'Barang 7',
+                'harga_barang' => 6000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ],
             //8
             [
-                'namaBarang' => 'Barang 8',
-                'hargaBarang' => 15000,
+                'nama_barang' => 'Barang 8',
+                'harga_barang' => 15000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ],
             //9
             [
-                'namaBarang' => 'Barang 9',
-                'hargaBarang' => 25000,
+                'nama_barang' => 'Barang 9',
+                'harga_barang' => 25000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ],
             //10
             [
-                'namaBarang' => 'Barang 10',
-                'hargaBarang' => 60000,
+                'nama_barang' => 'Barang 10',
+                'harga_barang' => 60000,
                 'deskripsi' => '...',
                 'image' => '/assets/img/curved-images/curved14.jpg'
             ]

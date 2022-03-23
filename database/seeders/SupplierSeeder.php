@@ -17,63 +17,63 @@ class SupplierSeeder extends Seeder
         DB::table('supplier')->insert([
             //1
             [
-                'namaSupplier' => 'Supplier 1',
-                'alamatSupplier' => 'Surabaya',
-                'noHPSupplier' => '08145645645601'
+                'nama_supplier' => 'Supplier 1',
+                'alamat_supplier' => 'Surabaya',
+                'no_hp_supplier' => '08145645645601'
             ],
             //2
             [
-                'namaSupplier' => 'Supplier 2',
-                'alamatSupplier' => 'Malang',
-                'noHPSupplier' => '08145645645602'
+                'nama_supplier' => 'Supplier 2',
+                'alamat_supplier' => 'Malang',
+                'no_hp_supplier' => '08145645645602'
             ],
             //3
             [
-                'namaSupplier' => 'Supplier 3',
-                'alamatSupplier' => 'Malang',
-                'noHPSupplier' => '08145645645603'
+                'nama_supplier' => 'Supplier 3',
+                'alamat_supplier' => 'Malang',
+                'no_hp_supplier' => '08145645645603'
             ],
             //4
             [
-                'namaSupplier' => 'Supplier 4',
-                'alamatSupplier' => 'Surabaya',
-                'noHPSupplier' => '08145645645604'
+                'nama_supplier' => 'Supplier 4',
+                'alamat_supplier' => 'Surabaya',
+                'no_hp_supplier' => '08145645645604'
             ],
             //5
             [
-                'namaSupplier' => 'Supplier 5',
-                'alamatSupplier' => 'Jakarta',
-                'noHPSupplier' => '08145645645605'
+                'nama_supplier' => 'Supplier 5',
+                'alamat_supplier' => 'Jakarta',
+                'no_hp_supplier' => '08145645645605'
             ],
             //6
             [
-                'namaSupplier' => 'Supplier 6',
-                'alamatSupplier' => 'Jakarta',
-                'noHPSupplier' => '08145645645606'
+                'nama_supplier' => 'Supplier 6',
+                'alamat_supplier' => 'Jakarta',
+                'no_hp_supplier' => '08145645645606'
             ],
             //7
             [
-                'namaSupplier' => 'Supplier 7',
-                'alamatSupplier' => 'Malang',
-                'noHPSupplier' => '08145645645607'
+                'nama_supplier' => 'Supplier 7',
+                'alamat_supplier' => 'Malang',
+                'no_hp_supplier' => '08145645645607'
             ],
             //8
             [
-                'namaSupplier' => 'Supplier 8',
-                'alamatSupplier' => 'Bandung',
-                'noHPSupplier' => '08145645645608'
+                'nama_supplier' => 'Supplier 8',
+                'alamat_supplier' => 'Bandung',
+                'no_hp_supplier' => '08145645645608'
             ],
             //9
             [
-                'namaSupplier' => 'Supplier 9',
-                'alamatSupplier' => 'Malang',
-                'noHPSupplier' => '08145645645609'
+                'nama_supplier' => 'Supplier 9',
+                'alamat_supplier' => 'Malang',
+                'no_hp_supplier' => '08145645645609'
             ],
             //10
             [
-                'namaSupplier' => 'Supplier 10',
-                'alamatSupplier' => 'Bandung',
-                'noHPSupplier' => '08145645645600'
+                'nama_supplier' => 'Supplier 10',
+                'alamat_supplier' => 'Bandung',
+                'no_hp_supplier' => '08145645645600'
             ]
         ]);
     }

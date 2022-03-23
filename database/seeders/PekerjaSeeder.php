@@ -17,72 +17,72 @@ class PekerjaSeeder extends Seeder
         DB::table('pekerja')->insert([
             //1
             [
-                'namaPekerja' => 'Pekerja 1',
-                'alamatPekerja' => 'Malang',
-                'noHPPekerja' => '081123456789001',
+                'nama_pekerja' => 'Pekerja 1',
+                'alamat_pekerja' => 'Malang',
+                'no_hp_pekerja' => '081123456789001',
                 'image' => '/assets/img/profile.png'
             ],
             //2
             [
-                'namaPekerja' => 'Pekerja 2',
-                'alamatPekerja' => 'Surabaya',
-                'noHPPekerja' => '081123456789002',
+                'nama_pekerja' => 'Pekerja 2',
+                'alamat_pekerja' => 'Surabaya',
+                'no_hp_pekerja' => '081123456789002',
                 'image' => '/assets/img/profile.png'
             ],
             //3
             [
-                'namaPekerja' => 'Pekerja 3',
-                'alamatPekerja' => 'Malang',
-                'noHPPekerja' => '081123456789003',
+                'nama_pekerja' => 'Pekerja 3',
+                'alamat_pekerja' => 'Malang',
+                'no_hp_pekerja' => '081123456789003',
                 'image' => '/assets/img/profile.png'
             ],
             //4
             [
-                'namaPekerja' => 'Pekerja 4',
-                'alamatPekerja' => 'Bojonegoro',
-                'noHPPekerja' => '081123456789004',
+                'nama_pekerja' => 'Pekerja 4',
+                'alamat_pekerja' => 'Bojonegoro',
+                'no_hp_pekerja' => '081123456789004',
                 'image' => '/assets/img/profile.png'
             ],
             //5
             [
-                'namaPekerja' => 'Pekerja 5',
-                'alamatPekerja' => 'Sidoarjo',
-                'noHPPekerja' => '081123456789005',
+                'nama_pekerja' => 'Pekerja 5',
+                'alamat_pekerja' => 'Sidoarjo',
+                'no_hp_pekerja' => '081123456789005',
                 'image' => '/assets/img/profile.png'
             ],
             //6
             [
-                'namaPekerja' => 'Pekerja 6',
-                'alamatPekerja' => 'Malang',
-                'noHPPekerja' => '081123456789006',
+                'nama_pekerja' => 'Pekerja 6',
+                'alamat_pekerja' => 'Malang',
+                'no_hp_ekerja' => '081123456789006',
                 'image' => '/assets/img/profile.png'
             ],
             //7
             [
-                'namaPekerja' => 'Pekerja 7',
-                'alamatPekerja' => 'Surabaya',
-                'noHPPekerja' => '081123456789007',
+                'nama_pekerja' => 'Pekerja 7',
+                'alamat_pekerja' => 'Surabaya',
+                'no_hp_pekerja' => '081123456789007',
                 'image' => '/assets/img/profile.png'
             ],
             //8
             [
-                'namaPekerja' => 'Pekerja 8',
-                'alamatPekerja' => 'Gresik',
-                'noHPPekerja' => '081123456789008',
+                'nama_pekerja' => 'Pekerja 8',
+                'alamat_pekerja' => 'Gresik',
+                'no_hp_pekerja' => '081123456789008',
                 'image' => '/assets/img/profile.png'
             ],
             //9
             [
-                'namaPekerja' => 'Pekerja 9',
-                'alamatPekerja' => 'Lamongan',
-                'noHPPekerja' => '081123456789009',
+                'nama_pekerja' => 'Pekerja 9',
+                'alamat_pekerja' => 'Lamongan',
+                'no_hp_pekerja' => '081123456789009',
                 'image' => '/assets/img/profile.png'
             ],
             //10
             [
-                'namaPekerja' => 'Pekerja 10',
-                'alamatPekerja' => 'Malang',
-                'noHPPekerja' => '081123456789010',
+                'nama_pekerja' => 'Pekerja 10',
+                'alamat_pekerja' => 'Malang',
+                'no_hp_ekerja' => '081123456789010',
                 'image' => '/assets/img/profile.png'
             ]
         ]);

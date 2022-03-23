@@ -6,7 +6,7 @@
       <div class="col-12">
         <div class="card mb-4">
           <div class="card-header pb-0">
-            <h6>Daftar Pekerja</h6>
+            <h6>{{$subtitle}}</h6>
           </div>
           <div class="card-body px-0 pt-0 pb-2">
             <div class="table-responsive p-0">
@@ -26,21 +26,21 @@
                     <td>
                       <div class="d-flex px-2 py-1">
                         <div class="d-flex flex-column justify-content-center">
-                          <h6 class="mb-0 text-sm">{{$p->id}}</h6>
+                          <h6 class="mb-0 text-sm">{{$p->id_pekerja}}</h6>
                         </div>
                       </div>
                     </td>
                     <td>
                       <div class="text-xs font-weight-bold mb-0">
                         <img src="{{$p->image}}" class="avatar avatar-sm me-3">
-                        {{$p->namaPekerja}}
+                        {{$p->nama_pekerja}}
                       </div>
                     </td>
                     <td class="align-middle text-center text-sm">
-                      <p class="text-xs font-weight-bold mb-0">{{$p->alamatPekerja}}</p>
+                      <p class="text-xs font-weight-bold mb-0">{{$p->alamat_pekerja}}</p>
                     </td>
                     <td class="align-middle text-center">
-                      <span class="text-secondary text-xs font-weight-bold">{{$p->noHPPekerja}}</span>
+                      <span class="text-secondary text-xs font-weight-bold">{{$p->no_hp_pekerja}}</span>
                     </td>
                     <td class="align-middle">
                     </td>

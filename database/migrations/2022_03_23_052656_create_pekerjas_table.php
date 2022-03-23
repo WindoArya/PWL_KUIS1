@@ -14,10 +14,10 @@ class CreatePekerjasTable extends Migration
     public function up()
     {
         Schema::create('pekerja', function (Blueprint $table) {
-            $table->id();
-            $table->string('namaPekerja', 200);
-            $table->string('alamatPekerja', 200);
-            $table->string('noHPPekerja', 20);
+            $table->id('id_pekerja');
+            $table->string('nama_pekerja', 200);
+            $table->string('alamat_pekerja', 200);
+            $table->string('no_hp_pekerja', 20);
             $table->string('image', 200);
             $table->timestamps();
         });
