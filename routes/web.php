@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NavigationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::get('/barang', [NavigationController::class, 'barang'])->name('barang');
+Route::get('/pelanggan', [NavigationController::class, 'pelanggan'])->name('pelanggan');
+Route::get('/pekerja', [NavigationController::class, 'pekerja'])->name('pekerja');
+Route::get('/supplier', [NavigationController::class, 'supplier'])->name('supplier');
