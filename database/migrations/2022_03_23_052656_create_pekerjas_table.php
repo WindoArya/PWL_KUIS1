@@ -18,6 +18,7 @@ class CreatePekerjasTable extends Migration
             $table->string('namaPekerja', 200);
             $table->string('alamatPekerja', 200);
             $table->string('noHPPekerja', 20);
+            $table->string('image', 200);
             $table->timestamps();
         });
     }

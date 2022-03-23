@@ -32,7 +32,8 @@
                     </td>
                     <td>
                       <div class="text-xs font-weight-bold mb-0">
-                          {{$p->namaPekerja}}
+                        <img src="{{$p->image}}" class="avatar avatar-sm me-3">
+                        {{$p->namaPekerja}}
                       </div>
                     </td>
                     <td class="align-middle text-center text-sm">
