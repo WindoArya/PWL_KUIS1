@@ -8,6 +8,7 @@ class HomeController extends Controller
 {
     public function index(){
         return view('konten.dashboard')
-                    ->with('title', 'Dashboard');
+                    ->with('title', '')
+                    ->with('subtitle', 'Dashboard');
     }
 }

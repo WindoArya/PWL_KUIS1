@@ -13,6 +13,7 @@ class NavigationController extends Controller
 
         return view('konten.barang')
                     ->with('title', 'Barang')
+                    ->with('subtitle', 'Daftar Barang')
                     ->with('barang', $barang);
     }
     public function pelanggan(){
@@ -20,6 +21,7 @@ class NavigationController extends Controller
 
         return view('konten.pelanggan')
                     ->with('title', 'Pelanggan')
+                    ->with('subtitle', 'Daftar Pelanggan')
                     ->with('pelanggan', $pelanggan);
     }
     public function pekerja(){
@@ -27,6 +29,7 @@ class NavigationController extends Controller
 
         return view('konten.pekerja')
                     ->with('title', 'Pekerja')
+                    ->with('subtitle', 'Daftar Pekerja')
                     ->with('pekerja', $pekerja);
     }
     public function supplier(){
@@ -34,6 +37,7 @@ class NavigationController extends Controller
 
         return view('konten.supplier')
                     ->with('title', 'Supplier')
+                    ->with('subtitle', 'Daftar Supplier')
                     ->with('supplier', $supplier);
     }
 }
